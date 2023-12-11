@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=0;const t=document.querySelectorAll(".slide").length,n=document.querySelector(".carousel"),c=document.querySelector("#nextBtn"),o=document.querySelector("#prevBtn");function r(c){e=(e+c+t)%t,n.style.transform=`translateX(${100*-e}%)`}console.log("Start"),c.addEventListener("click",(function(){r(1)})),o.addEventListener("click",(function(){r(-1)}))})();
